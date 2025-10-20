@@ -2,10 +2,12 @@
   "name": "mealplan",
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://mureiken.github.io/mealplan/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.263.1",
